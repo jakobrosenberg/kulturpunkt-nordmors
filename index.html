@@ -51,6 +51,15 @@
       flex-direction: column;
       justify-content: flex-end;
       overflow: hidden;
+      background: linear-gradient(175deg,
+          #1A5C5E 0%,
+          #1E6A6C 18%,
+          #2A7D80 32%,
+          #4A9A8E 48%,
+          #C4A672 62%,
+          #DEC9A0 72%,
+          #F2E8D5 82%,
+          var(--chalk) 100%);
     }
 
     .hero-bg {
@@ -59,79 +68,73 @@
       z-index: 0;
     }
 
-    /* Moler cliff layers - geological strata */
+    /* Moler strata — subtle decorative strip on the left */
     .strata {
       position: absolute;
       left: 0;
-      right: 0;
-      height: 100%;
+      top: 15%;
+      bottom: 30%;
+      width: 6px;
+      z-index: 2;
     }
 
     .strata-layer {
       position: absolute;
       left: 0;
-      right: 0;
-      transform-origin: left center;
+      width: 100%;
     }
 
     .strata-layer:nth-child(1) {
-      top: 0;
-      height: 18%;
-      background: linear-gradient(180deg, #1A3A4A 0%, #1E4D5A 100%);
+      top: 0%;
+      height: 15%;
+      background: #0E3D3F;
     }
 
     .strata-layer:nth-child(2) {
-      top: 18%;
+      top: 15%;
       height: 12%;
-      background: linear-gradient(180deg, #1E4D5A 0%, #2A7D80 60%, #3A9090 100%);
+      background: #2A7D80;
     }
 
     .strata-layer:nth-child(3) {
-      top: 30%;
-      height: 8%;
-      background: linear-gradient(180deg, #D4882E 0%, #E8A84C 100%);
+      top: 27%;
+      height: 14%;
+      background: #D4882E;
     }
 
     .strata-layer:nth-child(4) {
-      top: 38%;
-      height: 5%;
-      background: var(--sand);
-      opacity: 0.7;
+      top: 41%;
+      height: 8%;
+      background: #F2E8D5;
     }
 
     .strata-layer:nth-child(5) {
-      top: 43%;
-      height: 10%;
-      background: linear-gradient(180deg, #C4A672 0%, #B85C3A 100%);
+      top: 49%;
+      height: 12%;
+      background: #B85C3A;
     }
 
     .strata-layer:nth-child(6) {
-      top: 53%;
-      height: 6%;
-      background: var(--moler-light);
+      top: 61%;
+      height: 10%;
+      background: #DEC9A0;
     }
 
     .strata-layer:nth-child(7) {
-      top: 59%;
-      height: 8%;
-      background: linear-gradient(180deg, #8B6F5C 0%, #6B5A3E 100%);
+      top: 71%;
+      height: 14%;
+      background: #8B6F5C;
     }
 
     .strata-layer:nth-child(8) {
-      top: 67%;
-      height: 33%;
-      background: linear-gradient(180deg, var(--sand) 0%, var(--chalk) 100%);
+      top: 85%;
+      height: 15%;
+      background: #6B5A3E;
     }
 
-    /* Diagonal cliff cut */
+    /* No diagonal cut */
     .cliff-cut {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 1;
-      background: linear-gradient(155deg, transparent 0%, transparent 40%, var(--chalk) 40.3%, var(--chalk) 100%);
+      display: none;
     }
 
     /* Texture overlay */
@@ -148,7 +151,7 @@
     .hero-content {
       position: relative;
       z-index: 10;
-      padding: 2rem 3rem 4rem;
+      padding: 0 3rem 5rem;
       display: grid;
       grid-template-columns: 1fr auto;
       gap: 2rem;
@@ -157,7 +160,7 @@
 
     .hero-title-block h1 {
       font-family: 'DM Serif Display', serif;
-      font-size: clamp(3.5rem, 8vw, 7rem);
+      font-size: clamp(3.2rem, 7vw, 6.5rem);
       line-height: 0.92;
       color: var(--teal-deep);
       letter-spacing: -0.02em;
@@ -174,7 +177,7 @@
 
     .hero-subtitle {
       font-family: 'Instrument Sans', sans-serif;
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: 500;
       color: var(--clay);
       margin-top: 1.5rem;
@@ -362,7 +365,7 @@
       font-size: 1.3rem;
       color: var(--teal-deep);
       text-align: right;
-      padding-top: 0.15rem;
+      padding-right: 1rem;
     }
 
     .timeline-content h3 {
@@ -627,10 +630,6 @@
       .exhibitor-list {
         columns: 1;
       }
-
-      .cliff-cut {
-        background: linear-gradient(155deg, transparent 0%, transparent 30%, var(--chalk) 30.3%, var(--chalk) 100%);
-      }
     }
 
     /* === ANIMATIONS === */
@@ -687,13 +686,13 @@
 
     @keyframes strataReveal {
       from {
-        transform: scaleX(0);
         opacity: 0;
+        transform: translateY(10px);
       }
 
       to {
-        transform: scaleX(1);
         opacity: 1;
+        transform: translateY(0);
       }
     }
 
@@ -712,15 +711,15 @@
     /* Fossils decoration */
     .fossil-deco {
       position: absolute;
-      right: 10%;
-      top: 45%;
+      right: 12%;
+      top: 18%;
       z-index: 3;
       opacity: 0.08;
     }
 
     .fossil-deco svg {
-      width: 200px;
-      height: 200px;
+      width: 180px;
+      height: 180px;
     }
   </style>
 </head>
