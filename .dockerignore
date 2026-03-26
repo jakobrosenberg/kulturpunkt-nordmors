@@ -1,0 +1,11 @@
+.devcontainer
+.git
+.history
+.next
+node_modules
+.env
+.env.*
+!.env.example
+npm-debug.log*
+README.md
+tsconfig.tsbuildinfo
