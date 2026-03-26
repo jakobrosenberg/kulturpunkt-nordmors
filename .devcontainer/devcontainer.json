@@ -1,0 +1,33 @@
+{
+  "name": "kulturpunkt-nordmors",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/kulturpunkt-nordmors",
+  "shutdownAction": "stopCompose",
+  "remoteUser": "node",
+  "forwardPorts": [3000, "postgres:5432"],
+  "portsAttributes": {
+    "3000": {
+      "label": "Payload app",
+      "onAutoForward": "notify"
+    },
+    "postgres:5432": {
+      "label": "Postgres",
+      "onAutoForward": "silent"
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode.vscode-typescript-next"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
