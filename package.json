@@ -1,0 +1,26 @@
+{
+  "name": "kulturpunkt-nordmors",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tinacms dev -c \"astro dev\"",
+    "dev:site": "astro dev",
+    "build": "tinacms build && astro build",
+    "build:site": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.16.16",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tinacms": "^3.3.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@tinacms/cli": "^2.1.2",
+    "@types/node": "^25.1.0",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "title": "Kulturpunkt Nordmors — 1. Maj 2026",
+    "description": "En hel dag med kunst, musik, workshops, mad og fællesskab ved Ejerslev Havn på Nordmors."
+  },
+  "hero": {
+    "titleLineOne": "Kulturpunkt",
+    "titleLineTwo": "Nordmors",
+    "subtitle": "Kunst · Kultur · Fællesskab",
+    "dateLineOne": "1. Maj",
+    "dateLineTwo": "2026",
+    "location": "Ejerslev Havn",
+    "timeBadge": "KL. 10 – 17",
+    "scrollHint": "Scroll"
+  },
+  "intro": {
+    "beforeHighlight": "En hel dag med",
+    "highlight": "kunst, musik, workshops, mad og fællesskab",
+    "afterHighlight": "ved Ejerslev Havn — midt i Nordmors' fantastiske molerlandskab. Oplev lokale kunstnere, syng med koret, lav pileflet, jag fossiler, og smag det bedste fra det nordmorsanske køkken.",
+    "stats": [
+      {
+        "value": "6+",
+        "label": "Workshops"
+      },
+      {
+        "value": "9+",
+        "label": "Madboder"
+      },
+      {
+        "value": "7",
+        "label": "Timer"
+      }
+    ]
+  },
+  "program": {
+    "label": "Program",
+    "title": "Scenen i Kulturteltet",
+    "items": [
+      {
+        "time": "10:00",
+        "title": "Åbningstale",
+        "description": "Ved Anne Marie Heide, Region Nordjylland",
+        "tagLabel": "Scene",
+        "tagStyle": "scene"
+      },
+      {
+        "time": "10:30",
+        "title": "Kunst- og Kulturtale",
+        "description": "Lars Røntved, Udvalget for Børn, Kultur og Turisme, Morsø Kommune",
+        "tagLabel": "Scene",
+        "tagStyle": "scene"
+      },
+      {
+        "time": "13:00",
+        "title": "Musical Indslag",
+        "description": "Naturfriskolen fremfører musical",
+        "tagLabel": "Musik",
+        "tagStyle": "kultur"
+      },
+      {
+        "time": "15:00",
+        "title": "Nordmors Koret",
+        "description": "Fællessang og korsang i kulturteltet",
+        "tagLabel": "Musik",
+        "tagStyle": "kultur"
+      }
+    ]
+  },
+  "activities": {
+    "label": "Workshops & Aktiviteter",
+    "title": "Noget for alle",
+    "items": [
+      {
+        "categoryLabel": "Workshop",
+        "categoryStyle": "workshop",
+        "title": "Broderi",
+        "description": "Lær broderikunsten med Anna Marie Room i kulturteltet."
+      },
+      {
+        "categoryLabel": "Workshop",
+        "categoryStyle": "workshop",
+        "title": "Maleri",
+        "description": "Mal med Anette og lad dig inspirere af molerlandskabet."
+      },
+      {
+        "categoryLabel": "Workshop",
+        "categoryStyle": "workshop",
+        "title": "Pileflet",
+        "description": "Thy Mors Husflid og Gitte Erlandsen viser pilfletning."
+      },
+      {
+        "categoryLabel": "Workshop",
+        "categoryStyle": "workshop",
+        "title": "Gong & Folkedans",
+        "description": "Mærk vibrationerne og dans med Anna Marie Room."
+      },
+      {
+        "categoryLabel": "Natur",
+        "categoryStyle": "natur",
+        "title": "Naturvandring",
+        "description": "Henrik Madsen guider jer gennem Ejerslev's berømte fossiler."
+      },
+      {
+        "categoryLabel": "Natur",
+        "categoryStyle": "natur",
+        "title": "Vandsport",
+        "description": "Prøv vandsport ved havnen med udstyr fra Bjergby."
+      },
+      {
+        "categoryLabel": "Natur",
+        "categoryStyle": "natur",
+        "title": "Stenklubben & UNESCO",
+        "description": "John og Dorthe fortæller om Mors' unikke geologi."
+      },
+      {
+        "categoryLabel": "Børn",
+        "categoryStyle": "boern",
+        "title": "Børneaktiviteter",
+        "description": "Lego, sæbekassebiler, skattejagt, fællessang og bålhytte med Morsø Naturklub."
+      }
+    ]
+  },
+  "food": {
+    "label": "Mad & Drikke",
+    "title": "Smag Nordmors",
+    "items": [
+      {
+        "name": "Cafe Den Blå Lagune",
+        "description": "Café klassikere ved havnen"
+      },
+      {
+        "name": "Det Lille Planterige",
+        "description": "Plantebaseret mad"
+      },
+      {
+        "name": "Ban Thai Wat",
+        "description": "Autentisk thailandsk"
+      },
+      {
+        "name": "Signes Permakultur-køkkenvogn",
+        "description": "Bæredygtig mad"
+      },
+      {
+        "name": "Grøn Thy",
+        "description": "Grønne retter fra Thy"
+      },
+      {
+        "name": "Evas Kaffe & Loppefund",
+        "description": "Kaffe og hygge"
+      },
+      {
+        "name": "Ole Købmand",
+        "description": "Lokale specialiteter"
+      },
+      {
+        "name": "Sejler Køkkenet",
+        "description": "Nye naboer laver mad — Else Christensens linsesuppe"
+      },
+      {
+        "name": "Mary Ann",
+        "description": "Hjemmelavet"
+      }
+    ]
+  },
+  "market": {
+    "label": "Marked & Udstilling",
+    "title": "Krea-Kræmmermarked",
+    "items": [
+      "Dansk Mohair",
+      "Thy Mors Husflid — stenhuggere & trædrejning",
+      "Nice4U",
+      "Liesbeth Singeling — glaskunst",
+      "Astrid Løkken Camping",
+      "Slap Af",
+      "Lene Shannon",
+      "Stenklubben — UNESCO, John & Dorthe",
+      "Foreninger fra Nordmors"
+    ]
+  },
+  "practical": {
+    "label": "Praktisk",
+    "title": "Godt at vide",
+    "items": [
+      {
+        "title": "Hvor",
+        "description": "Ejerslev Havn, Nordmors. Parkering ved havnen."
+      },
+      {
+        "title": "Hvornår",
+        "description": "Fredag d. 1. maj 2026, kl. 10 – 17. Markedsteltet åbner kl. 10:15."
+      },
+      {
+        "title": "For hele familien",
+        "description": "Gratis aktiviteter for børn hele dagen — Lego, sæbekassebiler, bålhytte og skattejagt."
+      }
+    ]
+  },
+  "footer": {
+    "title": "Kulturpunkt Nordmors",
+    "summary": "1. Maj 2026 · Ejerslev Havn · Kl. 10–17",
+    "note": "Kunst & Kultur fra Sundby i vest, Dråby i øst og Feggeklit i nord — langs Molerstriben"
+  }
+}
