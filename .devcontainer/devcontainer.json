@@ -5,6 +5,10 @@
   "workspaceFolder": "/workspaces/kulturpunkt-nordmors",
   "shutdownAction": "stopCompose",
   "remoteUser": "node",
+  "remoteEnv": {
+    "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}",
+    "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}"
+  },
   "forwardPorts": [3000, "postgres:5432"],
   "portsAttributes": {
     "3000": {
@@ -23,7 +27,10 @@
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "ms-azuretools.vscode-docker",
-        "ms-vscode.vscode-typescript-next"
+        "ms-vscode.vscode-typescript-next",
+        "Anthropic.claude-code",
+        "openai.chatgpt"
+        
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"
