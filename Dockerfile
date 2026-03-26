@@ -33,6 +33,7 @@ COPY --from=builder /app/components ./components
 COPY --from=builder /app/lib ./lib
 COPY --from=builder /app/migrations ./migrations
 COPY --from=builder /app/payload ./payload
+COPY --from=builder /app/public ./public
 COPY --from=builder /app/payload-types.ts ./payload-types.ts
 COPY --from=builder /app/payload.config.ts ./payload.config.ts
 COPY --from=builder /app/next.config.mjs ./next.config.mjs

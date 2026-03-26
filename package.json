@@ -5,14 +5,14 @@
   "type": "module",
   "scripts": {
     "build": "cross-env NODE_OPTIONS=\"--no-deprecation --max-old-space-size=8000\" next build",
-    "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev",
-    "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
-    "generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
-    "migrate": "cross-env NODE_OPTIONS=--no-deprecation payload migrate",
-    "migrate:create": "cross-env NODE_OPTIONS=--no-deprecation payload migrate:create",
-    "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
-    "seed": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed.ts",
-    "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
+    "dev": "cross-env next dev",
+    "generate:importmap": "cross-env payload generate:importmap",
+    "generate:types": "cross-env payload generate:types",
+    "migrate": "cross-env payload migrate",
+    "migrate:create": "cross-env payload migrate:create",
+    "payload": "cross-env payload",
+    "seed": "cross-env tsx scripts/seed.ts",
+    "start": "cross-env next start",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
