@@ -43,11 +43,7 @@ export const EventLandingPage = ({ data }: Props) => {
     <>
       <section className="hero">
         <div className="hero-bg">
-          <div className="strata">
-            {Array.from({ length: 8 }).map((_, index) => (
-              <div key={index} className="strata-layer" />
-            ))}
-          </div>
+          <div className="hero-art" aria-hidden="true" />
           <div className="cliff-cut" />
           <div className="grain" />
         </div>
