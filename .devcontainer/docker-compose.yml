@@ -14,8 +14,8 @@ services:
       DATABASE_URL: postgres://postgres:postgres@postgres:5432/payload
       PAYLOAD_SECRET: change-me-for-local-dev
     user: node
-    volumes:
-      - ..:/workspaces/kulturpunkt-nordmors:cached
+    # volumes:
+    #   - ..:/workspaces/kulturpunkt-nordmors:cached
     working_dir: /workspaces/kulturpunkt-nordmors
 
   postgres:
