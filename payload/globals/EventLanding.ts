@@ -149,6 +149,8 @@ export const EventLanding: GlobalConfig = {
                 { label: 'Scene', value: 'scene' },
                 { label: 'Music', value: 'music' },
                 { label: 'Food', value: 'food' },
+                { label: 'Kulturpladsen', value: 'kulturpladsen' },
+                { label: 'Havnen', value: 'havnen' },
               ],
             },
           ],

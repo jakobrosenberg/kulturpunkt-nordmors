@@ -1,4 +1,4 @@
-export type ProgramTag = 'scene' | 'music' | 'food'
+export type ProgramTag = 'scene' | 'music' | 'food' | 'kulturpladsen' | 'havnen'
 export type ActivityCategory = 'workshop' | 'children' | 'nature' | 'music'
 
 export type EventLandingSeedData = {

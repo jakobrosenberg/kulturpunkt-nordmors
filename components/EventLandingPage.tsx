@@ -13,6 +13,14 @@ const programTagMap = {
     className: 'tag-mad',
     label: 'Mad',
   },
+  kulturpladsen: {
+    className: 'tag-kulturpladsen',
+    label: 'Kulturpladsen',
+  },
+  havnen: {
+    className: 'tag-havnen',
+    label: 'Havnen',
+  },
 } as const
 
 const activityCategoryMap = {

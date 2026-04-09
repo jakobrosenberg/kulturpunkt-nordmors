@@ -346,6 +346,16 @@ section {
   color: #fff;
 }
 
+.tag-kulturpladsen {
+  background: var(--amber-light);
+  color: var(--charcoal);
+}
+
+.tag-havnen {
+  background: var(--teal-light);
+  color: #fff;
+}
+
 .activities {
   background: var(--chalk);
 }

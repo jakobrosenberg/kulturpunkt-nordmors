@@ -311,7 +311,7 @@ export interface EventLanding {
           time: string;
           title: string;
           description: string;
-          tag: 'scene' | 'music' | 'food';
+          tag: 'scene' | 'music' | 'food' | 'kulturpladsen' | 'havnen';
           id?: string | null;
         }[]
       | null;
