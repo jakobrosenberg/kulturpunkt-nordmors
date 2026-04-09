@@ -3,10 +3,12 @@ import type { ReactNode } from 'react'
 
 import './globals.css'
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.SITE_URL
+
 export const metadata: Metadata = {
-  title: 'Kulturpunkt Nordmors — 1. Maj 2026',
-  description:
-    'Kunst, kultur, workshops, mad og fællesskab ved Ejerslev Havn på Nordmors.',
+  metadataBase: siteUrl ? new URL(siteUrl) : undefined,
+  title: 'Kulturpunkt Nordmors',
+  description: 'Kunst, kultur og fællesskab på Nordmors.',
 }
 
 type Props = {
